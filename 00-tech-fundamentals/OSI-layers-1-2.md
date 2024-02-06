@@ -2,7 +2,7 @@
 ### Layer 1: Physical
 * Responsible for physical transmission of data over a communication channel (wire, cable, wireless signal)
 
-<img src="./images/layer-1-physical.png"/>
+<img src="./images/layer-1-physical.jpg"/>
 
 * By using a shared physical medium like Copper (electrical), Fibre (light) or WiFi (RF) they can understand binaries shared via the medium
 
@@ -35,9 +35,9 @@
 3. Taken off the physical medium by layer 2 **destination side**
 4. Passed to layer 2 which interprets the frame and then sends over to layer 3 (which interprets the data)
 
-<img src="./images/layer-2-hub-a.png"/>
+<img src="./images/layer-2-hub-a.jpg"/>
 
-<img src="./images/layer-2-hub-b.png"/>
+<img src="./images/layer-2-hub-b.jpg"/>
 
 ### Layer 2: Data link pt. 2
 
@@ -55,7 +55,7 @@
 * NOTE: Even though each layer uses the layer below it, it is always abstracted
 * Web browsers function at layer 7, you dont worry about **how** this communication happens
 
-<img src="./images/layer-2-hub-c.png"/>
+<img src="./images/layer-2-hub-c.jpg"/>
 
 ### Layer 2: Using a Switch
 
@@ -65,7 +65,7 @@
   * This allows Switches to distinguish between each device 
 * Switches interpret the frames and make decisions based on the **source** and **destination** of the frame
 
-<img src="./images/layer-2-hub-d.png"/>
+<img src="./images/layer-2-hub-d.jpg"/>
 
 * Layer 2 allows for device-to-device communication through identifying devices via MAC addresses
 * Collision detection

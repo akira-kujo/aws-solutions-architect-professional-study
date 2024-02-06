@@ -4,7 +4,7 @@
 * Isolated networks (LANS) can be joined via P2P on layer 2
 * IPs (layer 3 feature) allow for cross-networking between isolated networks
 
-<img src="./images/layer-3-network.png"/>
+<img src="./images/layer-3-network.jpg"/>
 
 Layer 3 contains...
 * V4
@@ -17,7 +17,7 @@ Layer 3 contains...
 * Routes compare the destination IP of the packet and match it to what's found on the RT.
 * It then forwards the packet to the next hop/target etc.
 
-<img src="./images/layer-3-routes.png"/>
+<img src="./images/layer-3-routes.jpg"/>
 
 #### ARP
 * ARP is a process running between layer 2 and layer 3
@@ -26,7 +26,7 @@ Layer 3 contains...
 * The ARP is used to identify the MAC address to send the packet over
 * Layer 3 can now use this information to create a frame and send the packet over (Layer 2 --> Layer 1)
 
-<img src="./images/layer-3-arp.png"/>
+<img src="./images/layer-3-arp.jpg"/>
 
 1. D1 sends data to D3
 2. Subnet Mask identifies D1 and D3 are in separate networks
@@ -35,5 +35,5 @@ Layer 3 contains...
 5. R1 will remove the frame around P2, leaving only the packet
 6. R1 holds a route in its RT for D3. It goes through the next hop to finally reach its destination
 
-<img src="./images/layer-3-ip-routing.png"/>
+<img src="./images/layer-3-ip-routing.jpg"/>
 
