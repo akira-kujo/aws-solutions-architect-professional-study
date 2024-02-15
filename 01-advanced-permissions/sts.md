@@ -21,7 +21,7 @@ STS uses **permissions policy** to generate temporary credentials
 5. CANNOT MANUALLY INVALIDATE TEMP CREDENTIALS
 6. YOU CAN ADD ADDITIONAL POLICIES TO AVOID CREDENTIAL LEAKS (denying everyone access before a certain date & time)
 
-<img src="./bad-actor.jpg"/>
+<img src="./images/bad-actor.jpg"/>
 
 1. Actor manages to hack into EC2, this grants them access to the Role which has Admin Access (via EC2)
 2. Adding a Revoke Session to the role attached to the EC2 means only new identities (including EC2s) have permissions
